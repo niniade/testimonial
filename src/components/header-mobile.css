@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+    .navigation-div, .sub-nav-bar{
+        display: none;
+    }
+}

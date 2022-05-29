@@ -1,0 +1,114 @@
+@media only screen and (max-width: 896px) {
+    .testimonial-content{
+        top: 80px;
+        width: 100%;
+    }
+    .hero-section{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .hero-section .hero-content, .se-image{
+        width: 100%;
+    }
+    .hero-section .hero-image-div {
+        width: 100%;
+    }
+    .hero-content{
+        padding: 20px;
+    }
+    .share-experience-div{
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        overflow:auto;
+        flex-direction: column-reverse;
+    }
+    .share-experience-div .se-image, .se-image img, .subscribe-img, .hero-image-div, .se-content, .testimonial-line > div, .subscribe-content, .optin-div, .hero-image-div, .send-test{
+        width: 100%;  
+    }
+    .se-content{
+         margin-right: 0px;
+    }
+    .josiahs .se-content {
+        margin-left: 0px;
+    }
+    .share-experience-div{
+        padding-top: 40px;
+        height: auto;
+    }
+    .share-experience-div .se-content {
+        width: 100%;
+        padding: 30px;
+    }
+    .share-experience-div .se-image{
+        width:100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .share-experience-div .se-image {
+        height: auto;
+    }
+    .josiah .se-image{
+        height: auto;
+    }
+    .se-content{
+        padding: 30px;
+
+    }
+    .testimonial-wrapper{
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 20px;
+    }
+    .testimonial-line{
+        flex-direction: column;
+    }
+    .testimonial-line > div{
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .subscribe-section{
+        flex-direction: column-reverse;
+        margin-top: 0px
+    }
+
+    .subscribe-img{
+        margin-right: 0px;
+    }
+    .subscribe-img img{
+        margin-top: 30px;
+        width: 100%;
+
+    }
+    .subscribe-section{
+        height: auto;
+        padding: 40px;
+    }
+    .optin-div{
+        display: flex;
+        justify-content: end;
+    }
+    .optin-div input[type='email']{
+        width: 75%;
+    }
+    .optin-div input[type='submit']{
+        width: 25%;
+    }
+    footer{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 20px;
+    }
+    .footer-link-div{
+        margin-right: 0px;
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+}

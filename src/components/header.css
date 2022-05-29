@@ -1,0 +1,77 @@
+/* Styling for the testimonial header with navigation */
+
+.header{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+
+.header .header-content{
+    position: absolute;
+    left: 7.92%;
+    right: 12.49%;
+    top: 25%;
+    bottom: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.23px;
+    color: #242120;
+    letter-spacing: 0.05em;
+}  
+.navigation-div ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.button-style{
+    width: 84.16px;
+    height: 32px;
+    background-color: var(--vasiti-primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.sub-nav-bar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    margin: auto;
+    width: 100%;
+    background: #FFFFFF;
+    border: solid 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+    
+}
+.sub-nav-bar > div{
+    width: 892px;
+    margin: auto;
+    text-align: center;
+    margin-left: 231px;
+}
+
+.subnav-list li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
